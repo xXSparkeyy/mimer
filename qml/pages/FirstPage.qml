@@ -153,6 +153,7 @@ Page {
                 }
             }
 
+
             AppItem {
                 label: qsTr("Text Editor")
                 defaultValue: qsTr("Change")
@@ -161,6 +162,16 @@ Page {
                 customMimeTypeList: ["text/plain", "text/x-c", "text/x-c++"]
                 onDefaultSelected: {
                     setMimeList(defaultMimeTypeList, "jolla-notes-import.desktop")
+                }
+            }
+            AppItem {
+                label: qsTr("Map")
+                defaultValue: qsTr("Change")
+                defaultIconSource: "image://theme/icon-m-gps"
+                customMimeTypeList:  ["x-scheme-handler/geo", "x-maemo-urischeme/geo"]
+                defaultMimeTypeList: ["x-scheme-handler/geo", "x-maemo-urischeme/geo"]
+                onDefaultSelected: {
+                    setMimeList(defaultMimeTypeList, ";")
                 }
             }
         }

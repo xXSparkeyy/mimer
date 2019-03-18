@@ -88,5 +88,9 @@
         <source>Text Editor</source>
         <translation>Редактор текста</translation>
     </message>
+    <message>
+        <source>Map</source>
+        <translation>Карта</translation>
+    </message>
 </context>
 </TS>

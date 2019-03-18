@@ -88,5 +88,9 @@
         <source>Text Editor</source>
         <translation>Editor de texto</translation>
     </message>
+    <message>
+        <source>Map</source>
+        <translation>Mapa</translation>
+    </message>
 </context>
 </TS>
